@@ -1,0 +1,13 @@
+To run CountOccureneceOfNumbers.java:
+Click run in Eclipse. You will be prompted to enter individual integers, until you enter 0. When you enter 0, the program stops accepting input. While the program accepts input, it puts the integer and it's number of occurrences into the TreeMap. If the integer is NOT in the TreeMap, the program will put the integer and its value (occurrences) into the TreepMap with default occurrence: 1. If the integer is already in the TreeMap, the program will increment value (occurrences), and put the integer and it's value into the TreeMap. 
+Then, the program iterates over the TreeMap to find the highest number of occurrences and returns that value. The program takes the value and the TreeMap, and passes them into freqList, which returns a list of the integers with the specified number of occurrences (the highest number of occurrences).
+The program displays all numbers and preceded by their number of occurrences. Then, the program displays the highest number of occurrences followed by the integers it is associated with. 
+
+To run WordsInAscending.java:
+Specify the file as a command-line argument in Run Configurations -> Arguments (For Eclipse). The program then separates each LINE of the text document into a List of Strings, where each String in the list is an individual line from the file. The program splits each line (string) by the given delimiters, and converts to the words to lowercase. For each word in the line (string), the program stores the word and its number of occurrences in the TreeMap. 
+For each entry (pair) in the TreeMap, the program creates an instance of wordOccurence which implements comparable. The program then adds each instance to an Arraylist. Collections.sort will sort the list into ascending order of word occurrences. 
+The program then prints each word preceded by its number of occurrences. Where the words are first sorted by the number of occurrences (in ascending order 1 comes before 3). Then if there is are words with the same number of occurrences, they will go in alphabetical order.
+
+To run CountWordsInTextFile: 
+Specify the file as a command-line argument in Run Configurations -> Arguments (For Eclipse). The program then separates each LINE of the text document into a List of Strings, where each String in the list is an individual line from the file. The program splits each line (string) by the given delimiters, and converts to the words to lowercase. For each word in the line (string), the program stores the word and its number of occurrences in the TreeMap. 
+The program then gets the key and value for each entry in the TreeMap, and it prints each word preceded by its number of occurrences. 
