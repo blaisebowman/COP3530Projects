@@ -1,0 +1,1 @@
+You compile and load the project into a Java IDE. The project is run through the Project2.java file, and after hitting run, it will prompt for user input. After the user provides input, the program will take the infix expression, and return it as postfix, while displaying the stack trace. 
