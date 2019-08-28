@@ -1,0 +1,1 @@
+The project is run through the Mp3Player.java file. The list is displayed, and printed to the console, and through the visual GUI.
