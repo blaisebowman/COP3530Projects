@@ -1,0 +1,1 @@
+The main program is run through Project 3.java. After you hardcode the binary tree, you must call each of the relevant methods from Tree.java. A hardcoded version of the test cases is included below the hard-coded binary tree in Project 3.java. 
